@@ -1,0 +1,41 @@
+{
+  "name": "micro-insta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "sqlite",
+    "social-media",
+    "posts",
+    "users"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^7.0.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.7.0",
+    "prettier": "^2.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/micro-insta.git"
+  }
+}
