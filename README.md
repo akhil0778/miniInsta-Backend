@@ -158,13 +158,6 @@ Endpoint: /posts
 
 Description: Fetches all posts created by all users.
 
-Database Structure
-
-Users Table
-![Uploading image.png…]()
-
-
-
 Key Features
 
 ID Reassignment: Automatically adjusts IDs when a user or post is deleted.
